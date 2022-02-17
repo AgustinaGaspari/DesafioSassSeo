@@ -1,0 +1,15 @@
+/*Estilos main comprassostenible.html*/
+main{
+    .videoLink{
+        @extend %bgpages;
+        .row{
+            .p{
+                font-weight: bold;
+                font-family: 'Anton', sans-serif;
+                letter-spacing: 2px;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+   

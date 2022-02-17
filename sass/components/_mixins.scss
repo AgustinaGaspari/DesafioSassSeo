@@ -1,0 +1,6 @@
+@mixin titulos {
+    font-size: $fontsize-titulos -2.5;
+    font-family: 'Anton', sans-serif;
+    padding: 1rem;
+    background-image: linear-gradient(gray,white);
+}

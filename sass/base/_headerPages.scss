@@ -1,0 +1,11 @@
+
+
+@import"../components/mixins";
+
+/*titulos de los html, excepto index*/
+
+header{
+    .tituloPrincipal{
+        @include titulos;
+    }
+}

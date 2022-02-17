@@ -1,0 +1,20 @@
+/*estilos main Productos.html*/
+.container{
+    .row{
+        .carousel{
+            .carousel-inner{
+                .img-fluid{
+                    img{
+                        object-fit: cover;
+                    }
+                }
+            }
+            .carousel-control-prev-icon {
+                background-color: black;
+            }
+            .carousel-control-next-icon{
+                background-color: black;
+            }
+        }  
+    }
+}

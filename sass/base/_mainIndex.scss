@@ -1,0 +1,12 @@
+main{
+    .container{
+        .row{
+           .frase{
+                font-family: 'Anton', sans-serif;
+                font-style:italic ;
+                font-size: $fontsize-titulos -3.5;
+                text-align: center;
+           } 
+        }
+    }
+}

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/*mapas*/
+/*Extends*/
+footer {
+  font-size: 6rem -3rem;
+  font-family: 'Anton', sans-serif; }
+
+main .videoLink, main {
+  background-image: linear-gradient(to top, gray, white); }
+
+header .div1 .titulos {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 6rem;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-direction: alternate; }
+
+@keyframes aparecer {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+header .navbar .container .collapse .nv .item .nav-link {
+  font-size: 1.25rem; }
+
+header .navbar .container .collapse .nv .item .subnav:hover {
+  background-color: gray; }
+
+main .container .row .frase {
+  font-family: 'Anton', sans-serif;
+  font-style: italic;
+  font-size: 6rem -3.5;
+  text-align: center; }
+
+/*titulos de los html, excepto index*/
+header .tituloPrincipal {
+  font-size: 6rem -2.5;
+  font-family: 'Anton', sans-serif;
+  padding: 1rem;
+  background-image: linear-gradient(gray, white); }
+
+/*estilos footer de todas las páginas*/
+footer {
+  letter-spacing: 2px; }
+
+/*estilos main Productos.html*/
+.container .row .carousel .carousel-inner .img-fluid img {
+  object-fit: cover; }
+
+.container .row .carousel .carousel-control-prev-icon {
+  background-color: black; }
+
+.container .row .carousel .carousel-control-next-icon {
+  background-color: black; }
+
+/*estilos main contacto.html*/
+/*mapas*/
+main form .formulario {
+  width: 50%;
+  height: 50%;
+  padding: 30px;
+  margin: 10px auto;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: lighter;
+  border: 5px solid #969292;
+  border-radius: 5%;
+  border-style: double; }
+  main form .formulario .legend {
+    font-size: 2rem;
+    text-align: center; }
+  main form .formulario .button .send {
+    margin-top: 50px;
+    background-color: #d8f8e1;
+    font-weight: bold;
+    border: 2px solid #b0f2c2; }
+    main form .formulario .button .send:hover {
+      color: black; }
+  main form .formulario .button .reset {
+    margin-top: 50px;
+    background-color: #ffe4e1;
+    font-weight: bold;
+    border: 2px solid #fcb7af; }
+    main form .formulario .button .reset:hover {
+      color: black; }
+
+/*Estilos main comprassostenible.html*/
+main .videoLink .row .p {
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.2rem; }
+
+/*no lo toma*/
+/*Estilos main comotrabajamos.html*/

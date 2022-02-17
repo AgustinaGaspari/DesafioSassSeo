@@ -1,0 +1,11 @@
+/*Extends*/
+
+%fontfooter {
+    font-size: $fontsize-titulos -3rem;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+%bgpages {
+    background-image: linear-gradient(to top, gray, white);
+}

@@ -1,0 +1,46 @@
+/*estilos main contacto.html*/
+@import"../components/mapas";
+
+main{
+    form{
+        
+        .formulario{
+            width: 50%;
+            height: 50%;
+            padding: 30px;
+            margin: 10px auto;
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 1.5rem;
+            font-style: italic;
+            font-weight: lighter;
+            border: 5px solid rgb(150, 146, 146);
+            border-radius: 5%;
+            border-style: double;
+            ;
+            .legend{
+                font-size: 2rem;
+                text-align: center;
+            }
+            .button{
+                .send{
+                    margin-top: 50px;
+                    background-color: map-get($map: $send, $key:bg-send );
+                    font-weight: bold;
+                    border: map-get($map:$send , $key:border-send );
+                    &:hover{
+                        color:black;
+                    }
+                }
+                .reset{
+                    margin-top: 50px;
+                    background-color: map-get($map: $reset, $key:bg-reset );
+                    font-weight: bold;
+                    border: map-get($map:$reset , $key:border-reset );
+                    &:hover{
+                        color:black;
+                    }
+                }
+            }
+        }
+    }
+}
